@@ -8,6 +8,7 @@ public class KafkaConsumerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(KafkaConsumerApplication.class, args);
+		System.out.println("Started kafka consumer app on port 8082");
 	}
 
 }
